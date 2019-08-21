@@ -1,0 +1,25 @@
+body
+{
+    background-image: linear-gradient(to right, blue, lightblue);
+}
+
+#immagini
+{
+    text-align: center;
+}
+
+.foto
+{
+    border-color: black;
+    margin: 10px;
+    border-width: 10px;
+    border-style: groove;
+    border-radius: 10px;
+}
+
+h3
+{
+    font-family: monospace;
+    font-size: 0.5cm;
+}
+
