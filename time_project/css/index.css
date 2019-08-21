@@ -1,14 +1,15 @@
 body
 {
     background-image: linear-gradient(to right, blue, lightblue);
+    padding-top: 2.6cm;
 }
 
-#immagini
+#images
 {
     text-align: center;
 }
 
-.foto
+.photo
 {
     border-color: black;
     margin: 10px;
