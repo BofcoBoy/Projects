@@ -1,4 +1,4 @@
-function ora()
+function time()
 {
     let date = new Date();
     let year = date.getFullYear().toString();
@@ -33,5 +33,5 @@ function ora()
 }
 
 
-setInterval(function(){ ora(); }, 1000);
+setInterval(function(){ time(); }, 1000);
 
