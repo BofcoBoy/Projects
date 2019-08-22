@@ -3,7 +3,7 @@ function time()
     let date = new Date();
     let year = date.getFullYear().toString();
     let month = (date.getMonth() + 1).toString();
-    let day = date.getDay().toString();
+    let day = date.getDate().toString();
     let hours = date.getHours().toString();
     let minutes = date.getMinutes().toString();
     let seconds = date.getSeconds().toString();
