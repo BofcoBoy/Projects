@@ -1,3 +1,3 @@
-# Tris
+# Tris (2 players)
 
-Tris game - project.
+Simple web page where you can play Tris with a friend!:)
