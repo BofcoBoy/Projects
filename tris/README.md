@@ -1,0 +1,3 @@
+# Tris
+
+Tris game - project.
