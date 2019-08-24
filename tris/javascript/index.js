@@ -31,19 +31,19 @@ function win(vittoria, turno)
 {
     if(vittoria == 'X')
     {
-        alert('ha vinto X :))))');
+        alert('Congratulations X, you won!');
         window.location.reload();
     }
 
     if(vittoria == 'O')
     {
-        alert('ha vinto O :))))');
+        alert('Congratulations O, you won!');
         window.location.reload();
     }
 
     if(vittoria == null && turno == 9)
     {
-        alert('non ha vinto nessuno :((((');
+        alert('Nobody won!');
         window.location.reload();
     }
 }
@@ -63,7 +63,7 @@ $(document).ready(function()
     $('button').click(function()
     {
         $('p').show();
-        $('p').text('Giocatore: ' + segno);
+        $('p').text('Player: ' + segno);
 
         $('#1A').click(function()
         {
@@ -72,7 +72,7 @@ $(document).ready(function()
                 segno = chiGioca(i);
                 $('#1A').text(segno);
                 segno = chiGioca(++i);
-                $('p').text('Giocatore: ' + segno);
+                $('p').text('Player: ' + segno);
                 turno++;
             } 
 
@@ -88,7 +88,7 @@ $(document).ready(function()
                 segno = chiGioca(i);
                 $('#2A').text(segno);
                 segno = chiGioca(++i);
-                $('p').text('Giocatore: ' + segno);
+                $('p').text('Player: ' + segno);
                 turno++;
             }
             
@@ -104,7 +104,7 @@ $(document).ready(function()
                 segno = chiGioca(i);
                 $('#3A').text(segno);
                 segno = chiGioca(++i);
-                $('p').text('Giocatore: ' + segno);
+                $('p').text('Player: ' + segno);
                 turno++;
             }
 
@@ -121,7 +121,7 @@ $(document).ready(function()
                 segno = chiGioca(i);
                 $('#1B').text(segno);
                 segno = chiGioca(++i);
-                $('p').text('Giocatore: ' + segno);
+                $('p').text('Player: ' + segno);
                 turno++;
             }
 
@@ -138,7 +138,7 @@ $(document).ready(function()
                 segno = chiGioca(i);
                 $('#2B').text(segno);
                 segno = chiGioca(++i);
-                $('p').text('Giocatore: ' + segno);
+                $('p').text('Player: ' + segno);
                 turno++;
             }
 
@@ -155,7 +155,7 @@ $(document).ready(function()
                 segno = chiGioca(i);
                 $('#3B').text(segno);
                 segno = chiGioca(++i);
-                $('p').text('Giocatore: ' + segno);
+                $('p').text('Player: ' + segno);
                 turno++;
             }
 
@@ -173,7 +173,7 @@ $(document).ready(function()
                 segno = chiGioca(i);
                 $('#1C').text(segno);
                 segno = chiGioca(++i);
-                $('p').text('Giocatore: ' + segno);
+                $('p').text('Player: ' + segno);
                 turno++;
             }
 
@@ -190,7 +190,7 @@ $(document).ready(function()
                 segno = chiGioca(i);
                 $('#2C').text(segno);
                 segno = chiGioca(++i);
-                $('p').text('Giocatore: ' + segno);
+                $('p').text('Player: ' + segno);
                 turno++;
             }
 
@@ -207,7 +207,7 @@ $(document).ready(function()
                 segno = chiGioca(i);
                 $('#3C').text(segno);
                 segno = chiGioca(++i);
-                $('p').text('Giocatore: ' + segno);
+                $('p').text('Player: ' + segno);
                 turno++;
             }
 
